@@ -1,0 +1,19 @@
+.icon {
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon:hover {
+  background: lightskyblue;
+  color: white;
+  cursor: pointer;
+}
+
+.icon svg {
+  font-size: 2rem;
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "department": "Eye Care",
+    "doctors": "3",
+    "time": "Sat - Thu",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/dMWLtp1/pexels-ksenia-chernaya-5752281.jpg"
+  },
+  {
+    "id": "2",
+    "department": "Dental Care",
+    "doctors": "6",
+    "time": "Sat - Fri",
+    "duration": "10am - 8pm",
+    "img": "https://i.ibb.co/SPDLrHS/pexels-evelina-zhu-5434021.jpg"
+  },
+  {
+    "id": "3",
+    "department": "Primary Care",
+    "doctors": "4",
+    "time": "Sat - Mon",
+    "duration": "10am - 2pm",
+    "img": "https://i.ibb.co/Sy6x4by/pexels-pixabay-40568.jpg"
+  },
+  {
+    "id": "4",
+    "department": "Medicine",
+    "doctors": "3",
+    "time": "Sat - Fri",
+    "duration": "10am - 12pm",
+    "img": "https://i.ibb.co/yS0PgXy/pexels-chokniti-khongchum-2280571.jpg"
+  },
+  {
+    "id": "5",
+    "department": "Orthopedic",
+    "doctors": "2",
+    "time": "Sat - Tue",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/hXWnssJ/pexels-evelina-zhu-5434017.jpg"
+  },
+  {
+    "id": "6",
+    "department": "Cardiology",
+    "doctors": "1",
+    "time": "Sat - Wed",
+    "duration": "10am - 12am",
+    "img": "https://i.ibb.co/XCNSpRg/pexels-karolina-grabowska-4506071.jpg"
+  },
+  {
+    "id": "7",
+    "department": "Gynecology",
+    "doctors": "3",
+    "time": "Sat - Thu",
+    "duration": "10am - 4pm",
+    "img": " https://i.ibb.co/QkBXF48/pexels-artem-podrez-5726794.jpg"
+  },
+  {
+    "id": "8",
+    "department": "Hepatology",
+    "doctors": "2",
+    "time": "Sat - Thu",
+    "duration": "10am - 1pm",
+    "img": "https://i.ibb.co/BcJgrPD/pexels-chokniti-khongchum-3938022.jpg"
+  },
+  {
+    "id": "9",
+    "department": "Pediatrics",
+    "doctors": "6",
+    "time": "Sat - Thu",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/1ZvLf2P/pexels-ksenia-chernaya-5752311.jpg"
+  },
+  {
+    "id": "11",
+    "department": "Body Care",
+    "doctors": "2",
+    "time": "Sat - Thu",
+    "duration": "10am - 5pm",
+    "img": "https://i.ibb.co/5Fvpkzy/pexels-thirdman-7659573.jpg"
+  },
+  {
+    "id": "12",
+    "department": "Neurology",
+    "doctors": "3",
+    "time": "Sat - Mon",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/gmMBSnt/pexels-mart-production-7088833.jpg"
+  },
+  {
+    "id": "13",
+    "department": "Diabetes",
+    "doctors": "5",
+    "time": "Sat - Fri",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/44YKbh4/pexels-artem-podrez-6823560.jpg"
+  },
+  {
+    "id": "14",
+    "department": "Gastroenterology",
+    "doctors": "3",
+    "time": "Sat - Thu",
+    "duration": "10am - 4pm",
+    "img": "https://i.ibb.co/rpvzXzQ/pexels-mart-production-7089031.jpg"
+  }
+]
