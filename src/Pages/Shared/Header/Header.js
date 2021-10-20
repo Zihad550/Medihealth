@@ -53,13 +53,10 @@ const Header = () => {
               </Button>
             )}
           </Nav>
-          {user.displayName ? (
+
+          {user.email && (
             <Navbar.Text className="ms-3 text-dark">
-              Signed in as: {user.displayName}{" "}
-            </Navbar.Text>
-          ) : (
-            <Navbar.Text className="ms-3 text-dark">
-              Signed in as: {user.email}{" "}
+              Signed in as: {user.displayName || user.email}{" "}
             </Navbar.Text>
           )}
         </Navbar.Collapse>

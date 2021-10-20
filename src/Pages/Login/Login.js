@@ -53,12 +53,6 @@ const Login = () => {
             >
               <FontAwesomeIcon icon={faGoogle} />
             </p>
-            {/* <p
-              onClick={() => brandSignin(githubProvider)}
-              className="icon me-3"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </p> */}
 
             <p className="fs-5">
               Don't have an account? <Link to="/register">Register</Link>
