@@ -8,7 +8,8 @@ const ShowService = ({ service }) => {
   const history = useHistory();
 
   const handleRedirect = () => {
-    history.push(`/servicedetail/${id}/${details}/${serviceName}/${img}`);
+    history.push(`/servicedetail/${id}/${serviceName}/${details}`);
+    localStorage.setItem("serviceImage", img);
   };
   return (
     <Col>
@@ -20,7 +21,7 @@ const ShowService = ({ service }) => {
         />
         <Card.Body>
           <Card.Title>{serviceName}</Card.Title>
-          <Card.Text>{details}</Card.Text>
+          <Card.Text className="text-truncate">{details}</Card.Text>
           <Button variant="primary" onClick={handleRedirect}>
             Details
           </Button>

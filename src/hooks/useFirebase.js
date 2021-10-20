@@ -18,40 +18,57 @@ const useFirebase = () => {
   const [password, setPassword] = useState("");
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
+  // register handling function
   const register = () => {
+    setIsLoading(true);
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setUser(result.user);
       })
-      .catch((error) => setError(error.message));
+      .catch((error) => setError(error.message))
+      .finally(() => setIsLoading(false));
   };
 
+  // login handling function
   const login = () => {
+    setIsLoading(true);
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setUser(result.user);
         console.log(result.user);
       })
-      .catch((error) => setError(error.message));
+      .catch((error) => setError(error.message))
+      .finally(() => setIsLoading(false));
   };
 
+  // logout function
   const logOut = () => {
-    signOut(auth).catch((error) => {
-      setError(error.message);
-    });
+    setIsLoading(true);
+    signOut(auth)
+      .catch((error) => {
+        setError(error.message);
+      })
+      .finally(() => setIsLoading(false));
   };
 
+  // brand sign in function
   const brandSignin = (provider) => {
-    signInWithPopup(auth, provider).then((result) => {
-      setUser(result.user);
-    });
+    setIsLoading(true);
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        setUser(result.user);
+      })
+      .finally(() => setIsLoading(false));
   };
 
+  // email handling function
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
 
+  // password handling function
   const handlePassword = (e) => {
     setPassword(e.target.value);
   };
@@ -64,6 +81,7 @@ const useFirebase = () => {
       } else {
         setUser({});
       }
+      setIsLoading(false);
     });
     return () => unsubscribed;
   }, []);
@@ -79,6 +97,7 @@ const useFirebase = () => {
     login,
     error,
     logOut,
+    isLoading,
   };
 };
 

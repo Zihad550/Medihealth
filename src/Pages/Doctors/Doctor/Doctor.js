@@ -21,6 +21,8 @@ const Doctor = ({ doctor }) => {
           </Card.Subtitle>
           <Card.Text className="text-black-50">{about}</Card.Text>
         </Card.Body>
+
+        {/* doctor contact icons */}
         <div className="d-flex align-items-center justify-content-between px-3">
           <p className="doctor-profile-icon icon  ">
             <FontAwesomeIcon className=" fs-5" icon={faFacebookF} />

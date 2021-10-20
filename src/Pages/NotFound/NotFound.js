@@ -1,16 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import { useHistory } from "react-router";
+import "./NotFound.css";
 
 const NotFound = () => {
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push("/home");
+  };
   return (
-    <div className="vh-100 vw-100 d-flex align-items-center justify-content-center">
+    <div className="vh-100 vw-100 d-flex align-items-center justify-content-center not-found-container">
       <div>
         <h1 className="text-warning fw-bold fs-1">
           The Page you are looking for is not available
         </h1>
-        <Link to="/home" className="fs-5">
-          Return to Home
-        </Link>
+        <Button variant="warning" onClick={handleClick}>
+          Return to Home{" "}
+        </Button>
       </div>
     </div>
   );

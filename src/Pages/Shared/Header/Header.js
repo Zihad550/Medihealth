@@ -26,18 +26,18 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex w-50 justify-content-between align-items-center ">
+          <Nav className="ms-auto d-flex   align-items-center ">
             <Link className="text-decoration-none text-black fs-4" to="/home">
               Home
             </Link>
             <Link
-              className="text-decoration-none text-black fs-4"
+              className="text-decoration-none text-black fs-4 mx-3"
               to="/doctors"
             >
               Doctors
             </Link>
             <Link
-              className="text-decoration-none text-black fs-4"
+              className="text-decoration-none text-black fs-4 me-3"
               to="/departments"
             >
               Departments
@@ -53,9 +53,13 @@ const Header = () => {
               </Button>
             )}
           </Nav>
-          {user.email && (
+          {user.displayName ? (
             <Navbar.Text className="ms-3 text-dark">
               Signed in as: {user.displayName}{" "}
+            </Navbar.Text>
+          ) : (
+            <Navbar.Text className="ms-3 text-dark">
+              Signed in as: {user.email}{" "}
             </Navbar.Text>
           )}
         </Navbar.Collapse>

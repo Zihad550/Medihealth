@@ -1,32 +1,30 @@
-import { GithubAuthProvider, GoogleAuthProvider } from "@firebase/auth";
+import { GoogleAuthProvider } from "@firebase/auth";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Button, Container, Form } from "react-bootstrap";
+import { Button, Col, Form, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import image from "../../images/login.svg";
 import "./Login.css";
 
 const googleProvider = new GoogleAuthProvider();
-const githubProvider = new GithubAuthProvider();
 
 const Login = () => {
-  const { brandSignin, login, handleEmail, handlePassword, user, error } =
-    useAuth();
+  const { brandSignin, login, handleEmail, handlePassword, error } = useAuth();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     login();
   };
   return (
-    <Container className="vh-100 d-flex ">
-      <div className="d-flex flex-lg-row flex-column  h-100 w-100 align-items-center">
-        <div className="vh-100 w-100">
-          <img src={image} alt="login page" className="img-fluid" />
-        </div>
+    <Row md={2} xs={1}>
+      <Col>
+        <img src={image} alt="login page" className="img-fluid" />
+      </Col>
 
-        <Form className="w-100 h-50 my-auto" onSubmit={handleSubmit}>
+      <Col className="d-flex align-items-center">
+        <Form onSubmit={handleSubmit}>
           <h3 className="mb-3 fs-3">Login</h3>
           <Form.Group className="mb-3">
             <Form.Control
@@ -67,8 +65,8 @@ const Login = () => {
             </p>
           </div>
         </Form>
-      </div>
-    </Container>
+      </Col>
+    </Row>
   );
 };
 

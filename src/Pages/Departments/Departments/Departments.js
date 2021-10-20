@@ -12,8 +12,8 @@ const Departments = () => {
   }, []);
   return (
     <Container className="section">
-      <h2 className="fs-1 fw-bold mb-4">Our Departments</h2>
-      <Row className="g-3" lg="3" md="2" xs="1">
+      <h2 className="fs-1 fw-bold mb-5 text-primary">Our Departments</h2>
+      <Row className="g-3" lg={3} md={2} xs={1}>
         {departments.map((department) => (
           <Department key={department.id} sector={department}></Department>
         ))}

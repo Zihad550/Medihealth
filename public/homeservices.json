@@ -2,37 +2,37 @@
   {
     "id": "1",
     "serviceName": "Complete Dental Check-Up & Surgery",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/Qc50NnK/pexels-daniel-frank-305568.jpg"
+    "details": "Department of Dental & Maxillofacial Surgery of MediHealth offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease. ",
+    "img": "https://i.ibb.co/X8f9gjf/service-Dentist.jpg"
   },
   {
     "id": "2",
     "serviceName": "Emergency Care",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/vw6krNV/pexels-mikhail-nilov-8942700.jpg"
+    "details": "MediHealth Emergency Room (ER) provides non-stop life-saving care when required, 24 hours a day, seven days a week. ER has got all the life saving support for critically ill patients including ventilators and defibrillators. All doctors and nurses are specially trained to deal with all types of emergency patients. MediHealth ER has fully equipped top of the line Mercedes Benz ambulance services with specially trained staffs. We also have our own Air Ambulance service, with brand new Bell 407 helicopter loaded with all life-saving equipments, to transport patients from any corner of the country. Patients get a fully integrated emergency care at MediHealth Emergency Room.",
+    "img": "https://i.ibb.co/hDc610x/service-Emergency.jpg"
   },
   {
     "id": "3",
     "serviceName": "Blood Test",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/BrGxWfM/pexels-artem-podrez-5726782.jpg"
+    "details": "MediHealth equipment is state-of-the-art and equivalent to what you might find in some of the best labs in the world. We provide the best blood test service in our area.",
+    "img": "https://i.ibb.co/1XmJJsq/service-Blood-Test.jpg"
   },
   {
     "id": "4",
     "serviceName": "Outdoor Checkup",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/HPwHPtV/pexels-pavel-danilyuk-6753628.jpg"
+    "details": "MediHealth Outdoor Checkup provides non-stop life-saving care when required, 24 hours a day, seven days a week.Our Outdoor Checkup team has got all the equipments support for critically ill patients. All members of Outdoor Checkup team are specially trained to deal with all types of  patients.",
+    "img": "https://i.ibb.co/x1BM6dV/service-Out.jpg"
   },
   {
     "id": "5",
     "serviceName": "Cancer Service",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/DKFbHFm/pexels-anna-shvets-3844581.jpg"
+    "details": "The division of MediHealth Cancer Care Centre provides consultations by Consultants- Radiation & Clinical Oncologist, Medical Oncologist, Surgical Oncologist; through Pain & Palliative Care and treatment services including Radiation therapy, Chemotherapy, Cancer Surgeries, ICU Care, Immunotherapy, Biotherapy, Supportive therapy and Palliative care for adult and child cancer patients.",
+    "img": "https://i.ibb.co/Jm3WNXc/service-Cancer.jpg"
   },
   {
     "id": "6",
     "serviceName": "Pharmacy",
-    "details": "Lorem ipsum dolor sit amet, consectetuer. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi",
-    "img": "https://i.ibb.co/qy1HVFL/pexels-anna-tarazevich-5910953.jpg"
+    "details": "MediHealth Pharmacy Department has placed a leading role in implementing advanced clinical pharmacist patient care services in MediHealth where pharmacists work collaboratively with nurses and physicians directly on patient care areas to review medication orders and manage drug therapy.The Pharmacy Department of MediHealth provides a comprehensive range of pharmaceutical services to all patients. Its objective is to provide patient-focused pharmaceutical care in order to achieve definite outcomes that improve patients’ quality of life. The pharmacy department consists of a team of qualified, ",
+    "img": "https://i.ibb.co/Qr18Hc4/service-Pharmacy.jpg"
   }
 ]

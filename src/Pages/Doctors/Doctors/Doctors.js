@@ -12,8 +12,10 @@ const Doctors = () => {
   }, []);
   return (
     <Container>
-      <h2 className="fw-bold fs-1 my-5">Our Best Doctors </h2>
-      <Row className="g-3" md={2} sm={1} xs={1} lg={3} xl={4}>
+      <h2 className="fw-bold fs-1 my-5 fw-bold text-primary">
+        Our Best Doctors{" "}
+      </h2>
+      <Row className="g-3" md={2} xs={1} lg={3} xl={4}>
         {doctors.map((doctor) => (
           <Doctor key={doctor.id} doctor={doctor} />
         ))}
