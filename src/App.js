@@ -11,8 +11,6 @@ import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
 import PrivateRoute from "./Pages/PrivateRoute/PrivateRoute";
 import Register from "./Pages/Register/Register";
-import Footer from "./Pages/Shared/Footer/Footer";
-import Header from "./Pages/Shared/Header/Header";
 
 function App() {
   const services = useServices();
@@ -20,7 +18,6 @@ function App() {
     <div className="App">
       <AuthProvider>
         <Router>
-          <Header></Header>
           <Switch>
             {/* home route */}
             <Route exact path="/">
@@ -58,7 +55,6 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

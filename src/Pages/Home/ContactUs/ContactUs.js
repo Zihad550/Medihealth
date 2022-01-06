@@ -3,6 +3,9 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 import image from "../../../images/doctors/doctor-1.jpg";
 
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <Row className="g-3" xl={2} xs={1}>
       {/* contact us image and title */}
@@ -25,7 +28,7 @@ const ContactUs = () => {
           us, please fill up the Form given below and we will get back to you.{" "}
         </p>
         {/* contact us form */}
-        <Form className="mt-lg-3">
+        <Form onSubmit={handleSubmit} className="mt-lg-3">
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridEmail">
               <Form.Control type="text" placeholder="Enter your name" />

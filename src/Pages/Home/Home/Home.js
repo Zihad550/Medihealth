@@ -1,5 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import Footer from "../../Shared/Footer/Footer";
+import Header from "../../Shared/Header/Header";
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
 import ContactUs from "../ContactUs/ContactUs";
@@ -9,6 +11,7 @@ import HomeServices from "../HomeServices/HomeServices";
 const Home = () => {
   return (
     <div>
+      <Header />
       <Banner></Banner>
 
       <div className="home-service-container">
@@ -31,6 +34,7 @@ const Home = () => {
       <Container className="section">
         <ContactUs></ContactUs>
       </Container>
+      <Footer />
     </div>
   );
 };

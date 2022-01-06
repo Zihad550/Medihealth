@@ -44,9 +44,11 @@ const Header = () => {
             </Link>
 
             {user.email ? (
-              <Button className="mt-2" variant="warning" onClick={logOut}>
-                Log out
-              </Button>
+              <>
+                <Button variant="warning" onClick={logOut}>
+                  Log out
+                </Button>
+              </>
             ) : (
               <Button onClick={handleLogin} vatiant="primary" className="fs-5">
                 Log In
